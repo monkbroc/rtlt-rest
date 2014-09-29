@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RTLT Rest API</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>FEMA Resource Typing REST API</h1>
+        <p>Access the FEMA Resource Typing Library Tool (RTLT) using REST API</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <h2>Overview</h2>
+        <p>The FEMA Resource Typing Library Tool (RTLT) offers a SOAP
+          API to access the list of federally-defined emergency
+          resources. For modern web applications, a REST API with a JSON
+          response is more convenient. This site provides a wrapper on top
+          of the FEMA RTLT API and returns responses in JSON.</p>
+        <h2>Endpoints</h2>
+        <ul>
+          <li>
+            <p>Get all FEMA RTLT resources</p>
+            <code>GET /resources</code>
+            <p><a href="/resources">Example response</a></p>
+          </li>
+          <li>
+            <p>Get one FEMA RTLT resource by FEMA ID</p>
+            <code>GET /resources/:fema_id</code>
+            <p><a href="/resources/7-508-1106">Example response</a></p>
+          </li>
+          <li>
+            <p>Get all FEMA RTLT resource headers</p>
+            <code>GET /resources/headers</code>
+            <p><a href="/resources/headers">Example response</a></p>
+          </li>
+        </ul>
+
+        <h2>More Information</h2>
+        <p><a href="https://rtlt.ptaccenter.org/Public">FEMA RTLT home page</a></p>
+        <p><a href="RTLT_API.pdf">RTLT SOAP API documentation</a></p>
+
+        <footer class="text-center">Provided by <a href="http://munirent.co">MuniRent</a></footer>
+      </div>
+    </div>
+  </body>
+</html>
