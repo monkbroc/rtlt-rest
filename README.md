@@ -33,20 +33,28 @@ Start application
 
 *   Get all FEMA RTLT resources
 
-`GET /resources`
+    `GET /resources`
+    
+    [Example response](http://rtlt-rest.herokuapp.com/resources)
 
 *   Get one FEMA RTLT resource by FEMA ID
 
-`GET /resources/:fema_id`
+    `GET /resources/:fema_id`
+    
+    [Example response](http://rtlt-rest.herokuapp.com/resources/7-508-1106)
 
 *   Get all FEMA RTLT resource headers
 
-`GET /resources/headers`
+    `GET /resources/headers`
+    
+    [Example response](http://rtlt-rest.herokuapp.com/resources/headers)
 
 ## More Information
 
 [FEMA RTLT home page](https://rtlt.ptaccenter.org/Public)
 
-[RTLT SOAP API documentation](RTLT_API.pdf)
+[RTLT SOAP API documentation](public/RTLT_API.pdf)
+
+### License: [GPL v2](LICENSE)
 
 ### Provided by [MuniRent](http://munirent.co)
