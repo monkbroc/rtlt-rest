@@ -19,17 +19,23 @@ This application is available publicly at
 
 Clone.
 
-`git clone http://github.com/monkbroc/rtlt-rest`
+```
+git clone http://github.com/monkbroc/rtlt-rest
+```
 
 Install dependencies with Bundler.
 
-`bundle install`
+```
+bundle install
+```
 
 Start application
 
-`rackup`
+```
+rackup
+```
 
-## Endpoints
+## REST Endpoints
 
 *   Get all FEMA RTLT resources
 
@@ -55,6 +61,9 @@ Start application
 
 [RTLT SOAP API documentation](public/RTLT_API.pdf)
 
-### License: [GPL v2](LICENSE)
-
 ### Provided by [MuniRent](http://munirent.co)
+
+### License
+
+This project is &copy; 2014 MuniRent and distributed under the [GPL v2](LICENSE)
+
