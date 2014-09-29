@@ -12,6 +12,11 @@ of the FEMA RTLT API and returns responses in JSON.
 
 ## Usage
 
+This application is available publicly at
+[http://rtlt-rest.herokuapp.com/](http://rtlt-rest.herokuapp.com/)
+
+## Installation
+
 Clone.
 
 `git clone http://github.com/monkbroc/rtlt-rest`
